@@ -1,0 +1,19 @@
+//Fix: modal visibility 
+
+.ion-page-invisible {
+    opacity: 1;
+}
+
+.print-only {
+    display: none;
+}
+
+@media print {
+    .hidden-print {
+      display: none !important;
+    }
+
+    .print-only {
+        display: block;
+    }
+}

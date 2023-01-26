@@ -1,0 +1,50 @@
+.product {
+    border: 1px solid #ddd; 
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    color: #121212; 
+    cursor: pointer;
+}
+
+.product-loader {
+    --background-rgb: 230,40,50;
+
+    .title {
+        height: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .sub-title {
+        height: 18px;
+        margin-top: 10px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+ion-thumbnail {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #ccc;
+}
+
+.old { 
+    text-decoration: line-through;
+    color: #999;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}

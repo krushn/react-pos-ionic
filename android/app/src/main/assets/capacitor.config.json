@@ -1,0 +1,8 @@
+{
+  "appId": "com.iamkrushn.pos",
+  "appName": "ionic-pos",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

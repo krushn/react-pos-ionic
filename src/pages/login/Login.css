@@ -1,0 +1,31 @@
+.login-wrapper {
+    max-width: 350px;
+    margin: auto;
+}
+
+.login-wrapper .brand {
+    text-align: center;
+    font-size: 30px;
+    margin: 60px auto;
+}
+ 
+.login-wrapper ion-button {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-wrapper ion-item {  
+    --background: #fff;
+    --color: var(--ion-color-primary);
+}
+
+.login-wrapper ion-label {
+    --color: var(--ion-color-primary);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}

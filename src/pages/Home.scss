@@ -1,0 +1,37 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+
+@media only screen and (max-width: 767px) {
+  #product-container {
+    .category,
+    .product-grid,
+    ion-infinite-scroll {
+      display: none;
+    }
+  }
+}
+
+.have-order {
+  .col-product {
+    display: none;
+  }
+
+  .col-cart {
+    max-width: 100% !important;
+    flex: 1 !important;
+  }
+}
+
+#product-container.haveFocus {
+  .category {
+    display: inline-block;
+  }
+
+  .product-grid,
+  ion-infinite-scroll {
+    display: block;
+  }
+}
+
